@@ -9,6 +9,10 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
+/**
+ * Created by Wuhf on 2016/3/16.
+ * Description ：
+ */
 public class CharIME extends InputMethodService implements
 		OnKeyboardActionListener {
 	private KeyboardView mInputView = null;
